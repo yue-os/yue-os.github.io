@@ -1,118 +1,30 @@
-# John Mark Calimbo - Portfolio Website
+# Hi 👋, I'm John Mark
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-success)](https://yue-os.github.io)
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+### Developer focused on Game Development (Unity/Godot), Minecraft Modding (Java), and Backend Systems (C#/.NET). Passionate about automation and open-source utility tools. 
 
-Personal portfolio website showcasing my software development projects, skills, and professional experience. Hosted on GitHub Pages at [yue-os.github.io](https://yue-os.github.io).
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yue-os" alt="yue-os" /></a> </p>
 
-## 🎓 Design Philosophy
+- 🔭 I'm currently working on **An educational health awareness multiplayer game**
 
-This portfolio follows a **Harvard Academic / Research Lab** aesthetic:
-- Ultra-minimalist and text-forward design
-- Professional typography with serif headings (Georgia) and sans-serif body text (Arial/Helvetica)
-- Harvard Crimson (#A51C30) accent color
-- Clean, data-dense layout resembling academic publications
-- Subtle, professional animations
+- 🌱 I'm currently learning **Web Security**
 
-## 📋 Sections
+- 👨‍💻 All of my projects are available at **[http://yue-os.github.io](http://yue-os.github.io)**
 
-### Header
-- Profile picture with circular design
-- Name and professional title
-- Direct links to GitHub and email
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://github.com/yue-os" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="yue-os" height="30" width="40" /></a>
+<a href="https://fb.com/lazyyuehan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="lazyyuehan" height="30" width="40" /></a>
+<a href="https://instagram.com/y.hue" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="y.hue" height="30" width="40" /></a>
+<a href="https://medium.com/yueos" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="yueos" height="30" width="40" /></a>
+<a href="https://discord.gg/0xyue.dev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="0xyue.dev" height="30" width="40" /></a>
+</p>
 
-### About
-Concise professional summary highlighting expertise in:
-- Game Development (Unity/Godot)
-- Minecraft Modding (Java)
-- Backend Systems (C#/.NET)
-- Automation and open-source tools
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/android" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=androidstudio" alt="android" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/angularjs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=angular" alt="angularjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/azure" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=azure" alt="azure" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bash" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bash" alt="bash" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/bootstrap" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=bootstrap" alt="bootstrap" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/csharp" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cs" alt="csharp" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/docker" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=docker" alt="docker" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/dotnet" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=dotnet" alt="dotnet" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/figma" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=figma" alt="figma" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/firebase" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=firebase" alt="firebase" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/flutter" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=flutter" alt="flutter" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/go" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=go" alt="go" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/java" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=java" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=js" alt="javascript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/kotlin" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=kotlin" alt="kotlin" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mssql" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/mysql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=mysql" alt="mysql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nextjs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nextjs" alt="nextjs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/php" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=php" alt="php" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postgresql" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postgres" alt="postgresql" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/postman" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=postman" alt="postman" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/reactnative" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="reactnative" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sculpin" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="sculpin" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/sqlite" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=sqlite" alt="sqlite" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/unity" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=unity" alt="unity" width="40" height="40"/> </a></p>
 
-### Featured Research & Projects
-Detailed descriptions of three flagship projects:
-1. **BatangAware** - Educational RPG built with C# and Godot
-2. **CS Survey System / Booking App** - Full-stack web ecosystem using ASP.NET
-3. **Meteor Client & Lucid Addon** - Java-based Minecraft utility mods
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yue-os&show_icons=true&locale=en&layout=compact" alt="yue-os" /></p>
 
-### Complete Project Archive
-Academic-style table listing additional projects:
-- ViperShopBot & Discord Key Bot (JavaScript automation)
-- Reddit Scraper & Budget Tracker (Python data tools)
-- ObsidianUi, Utility, Script (Lua/Roblox development)
-- Clan Nametag & Crystal Aura (Java/Minecraft mods)
-- BookingAptFrontend & KeySystem (Web interfaces)
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yue-os&show_icons=true&locale=en" alt="yue-os" /></p>
 
-## ✨ Features
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yue-os&" alt="yue-os" /></p>
 
-- **Single-file deployment** - Complete website in one `index.html` file
-- **Fully responsive** - Mobile-optimized with scrollable tables
-- **Smooth animations** - Professional fade-in, hover, and transition effects
-- **No dependencies** - Pure HTML/CSS, no frameworks or external libraries
-- **Fast loading** - Lightweight and optimized for performance
-- **SEO-friendly** - Semantic HTML with proper meta tags
-
-## 🚀 Deployment
-
-This repository is automatically deployed via GitHub Pages. Any push to the `main` branch will update the live site.
-
-### Local Development
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yue-os/yue-os.github.io.git
-cd yue-os.github.io
-```
-
-2. Open `index.html` in your browser:
-```bash
-# Using Python
-python -m http.server 8000
-
-# Or simply open the file
-open index.html  # macOS
-xdg-open index.html  # Linux
-start index.html  # Windows
-```
-
-3. Visit `http://localhost:8000` in your browser
-
-## 🖼️ Profile Picture
-
-To add your profile picture:
-1. Add a file named `profile.png` to the root directory
-2. The image will automatically display (120x120px circular)
-3. If no image is found, a professional SVG placeholder is shown
-
-## 🎨 Customization
-
-The website uses CSS variables for easy theme customization:
-
-```css
-:root {
-    --bg-primary: #ffffff;      /* Background color */
-    --text-primary: #222222;    /* Main text color */
-    --accent-crimson: #A51C30;  /* Harvard Crimson accent */
-    --border-color: #cccccc;    /* Border color */
-}
-```
-
-## 📱 Technologies
-
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with Flexbox, animations, and media queries
-- **GitHub Pages** - Free hosting and deployment
-
-## 📄 License
-
-© 2026 John Mark Calimbo. All rights reserved.
-
-## 📧 Contact
-
-- **GitHub**: [@yue-os](https://github.com/yue-os)
-- **Email**: calimbo657@gmail.com
-- **Website**: [yue-os.github.io](https://yue-os.github.io)
-
----
-
-*Last updated: February 14, 2026*

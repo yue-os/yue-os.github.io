@@ -19,6 +19,12 @@
             --accent-crimson: #A51C30;
             --border-color: #cccccc;
         }
+		[data-theme="dark"] {
+			--bg-primary: #1e1e1e;
+			--text-primary: #f0f0f0;
+			--accent-crimson: #ff4c4c;
+			--border-color: #444444;
+		}
 
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -227,6 +233,30 @@
             color: var(--accent-crimson);
         }
 
+        /* Quantitative Activity */
+        .stats-grid {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+
+        .stats-card {
+            flex: 1 1 320px;
+            max-width: 400px;
+            border: 1px solid var(--border-color);
+            padding: 0.75rem;
+            background: var(--bg-primary);
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .stats-card img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            display: block;
+        }
+
         /* Footer */
         footer {
             padding: 2rem 0;
@@ -320,11 +350,19 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <img src="profile.png" alt="John Mark Calimbo" class="profile-picture" 
-                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22 viewBox=%220 0 120 120%22%3E%3Ccircle cx=%2260%22 cy=%2260%22 r=%2260%22 fill=%22%23f0f0f0%22/%3E%3Cpath d=%22M60 30c8.3 0 15 6.7 15 15s-6.7 15-15 15-15-6.7-15-15 6.7-15 15-15zm0 35c16.5 0 30 8.5 30 19v6H30v-6c0-10.5 13.5-19 30-19z%22 fill=%22%23A51C30%22/%3E%3C/svg%3E'">
+				<img src="profile.png" alt="John Mark Calimbo" class="profile-picture" 
+				onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22 viewBox=%220 0 120 120%22%3E%3Ccircle cx=%2260%22 cy=%2260%22 r=%2260%22 fill=%22%23f0f0f0%22/%3E%3Cpath d=%22M60 30c8.3 0 15 6.7 15 15s-6.7 15-15 15-15-6.7-15-15 6.7-15 15-15zm0 35c16.5 0 30 8.5 30 19v6H30v-6c0-10.5 13.5-19 30-19z%22 fill=%22%23A51C30%22/%3E%3C/svg%3E'">
                 <div class="header-info">
-                    <h1>John Mark Calimbo</h1>
+					<h1>John Mark Calimbo</h1>
                     <p class="subtitle">Full Stack Developer | Game Developer | Automation Engineer</p>
+					<p style="margin: 1rem 0;">
+						<a href="resume.pdf" target="_blank" style="font-weight: bold; border: 1px solid var(--accent-crimson); padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px;">
+							Download Curriculum Vitae (PDF)
+						</a>
+					</p>
+					<button id="theme-toggle" style="background:none; border: 1px solid var(--text-primary); color: var(--text-primary); padding: 5px 10px; cursor: pointer; margin-top: 10px;">
+						Switch Theme ◐
+					</button>
                     <div class="social-links">
                         <a href="https://github.com/yue-os" target="_blank" rel="noopener noreferrer">GitHub: github.com/yue-os</a>
                         <a href="mailto:calimbo657@gmail.com">Email: calimbo657@gmail.com</a>
@@ -342,6 +380,30 @@
             <p class="about-text">
                 Developer focused on Game Development (Unity/Godot), Minecraft Modding (Java), and Backend Systems (C#/.NET). Passionate about automation and open-source utility tools.
             </p>
+        </section>
+
+		<section id="skills" class="container">
+            <h2>Technical Proficiency</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                <div>
+                    <h3>Core Technologies</h3>
+                    <ul style="list-style-type: square; padding-left: 1.2rem; line-height: 1.8;">
+                        <li>C# (Backend .NET / ASP.NET)</li>
+                        <li>Python (Scripting & Automation)</li>
+                        <li>JavaScript / Node.js</li>
+                        <li>Java (Minecraft Modding)</li>
+                        <li>Lua</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Specialized Domains</h3>
+                    <ul style="list-style-type: square; padding-left: 1.2rem; line-height: 1.8;">
+                        <li><strong>Game Dev:</strong> Unity, Godot</li>
+                        <li><strong>Security:</strong> CTF (HackTheBox), Burp Suite, Nmap</li>
+                        <li><strong>Systems:</strong> Linux (Bash), SQL</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <!-- Featured Research & Projects Section -->
@@ -370,6 +432,43 @@
                 <p class="project-description">
                     A forked and enhanced version of the Meteor Client, along with the Lucid addon, both developed in Java for Minecraft. These utility mods focus on performance optimization, quality-of-life improvements, and enhanced chat functionalities. The Lucid addon extends the base Meteor Client with additional modules for automation, visual enhancements, and multiplayer communication features. Development involved deep understanding of Minecraft's internal APIs, event-driven programming, and efficient memory management for real-time game modifications.
                 </p>
+            </div>
+        </section>
+
+		<section id="security" class="container">
+            <h2>Security Research & CTF</h2>
+            <p style="margin-bottom: 1.5rem;">
+                Active participant in cybersecurity challenges focusing on network vulnerability assessment and penetration testing.
+            </p>
+            <div style="border-left: 4px solid var(--accent-crimson); padding-left: 1.5rem;">
+                <h3 style="margin-bottom: 0.5rem;">Hack The Box & Capture The Flag</h3>
+                <p>
+                    Regularly engaging in security, penetration, and CTF  challenges to practice exploitation techniques. Experience includes:
+                </p>
+                <ul style="margin-top: 0.5rem; margin-left: 1.5rem; list-style-type: circle;">
+                    <li><strong>Network Analysis:</strong> Traffic inspection using Wireshark and Nmap.</li>
+                    <li><strong>Web Exploitation:</strong> Vulnerability scanning with Burp Suite and FFuf.</li>
+                    <li><strong>Privilege Escalation:</strong> Linux system enumeration and rights elevation.</li>
+					<li><strong>Cryptography:</strong> Decryption challenges and hash cracking.</li>
+					<li><strong>Reverse Engineering:</strong> Binary analysis and disassembly using tools like Ghidra, GDB and IDA.</li>
+					<li><strong>Reverse Shell:</strong> Exploitation and shell generation techniques.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="quantitative-activity" class="container">
+            <h2>Quantitative Activity</h2>
+            <div class="stats-grid">
+                <div class="stats-card">
+                    <img
+                        src="https://github-readme-stats.vercel.app/api?username=yue-os&show_icons=true&theme=buefy&hide_border=true"
+                        alt="GitHub General Stats for yue-os">
+                </div>
+                <div class="stats-card">
+                    <img
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=yue-os&layout=compact&theme=buefy&hide_border=true"
+                        alt="Top Languages for yue-os">
+                </div>
             </div>
         </section>
 
@@ -443,6 +542,10 @@
                         </tr>
                     </tbody>
                 </table>
+				<div style="margin-bottom: 1rem; text-align: right;">
+					<input type="text" id="projectSearch" placeholder="Filter projects (e.g., 'Python', 'Bot')..." 
+						style="padding: 0.5rem; width: 100%; max-width: 300px; border: 1px solid var(--text-primary); font-family: inherit;">
+				</div>
             </div>
         </section>
     </main>
@@ -453,5 +556,33 @@
             <p>&copy; 2026 John Mark Calimbo. Hosted on GitHub Pages.</p>
         </div>
     </footer>
+	<script>
+		// Project Search Functionality
+		document.getElementById('projectSearch').addEventListener('keyup', function() {
+			let filter = this.value.toUpperCase();
+			let rows = document.querySelector("#archive table tbody").rows;
+			
+			for (let i = 0; i < rows.length; i++) {
+				let txtValue = rows[i].textContent || rows[i].innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+					rows[i].style.display = "";
+				} else {
+					rows[i].style.display = "none";
+				}
+			}
+		});
+	</script>
+	<script>
+		const toggleBtn = document.getElementById('theme-toggle');
+		toggleBtn.addEventListener('click', () => {
+			if (document.documentElement.getAttribute('data-theme') === 'dark') {
+				document.documentElement.removeAttribute('data-theme');
+				toggleBtn.textContent = 'Switch Theme ◐';
+			} else {
+				document.documentElement.setAttribute('data-theme', 'dark');
+				toggleBtn.textContent = 'Switch Theme ◑';
+			}
+		})
+	</script>
 </body>
 </html>
