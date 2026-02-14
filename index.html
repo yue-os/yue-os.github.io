@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Mark Calimbo - Full Stack Developer, Game Developer, and Automation Engineer">
+    <title>John Mark Calimbo | Research Portfolio</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #ffffff;
+            --text-primary: #222222;
+            --accent-crimson: #A51C30;
+            --border-color: #cccccc;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-weight: normal;
+            line-height: 1.3;
+            margin-bottom: 0.8rem;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 1px solid var(--text-primary);
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        a {
+            color: var(--accent-crimson);
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header Section */
+        header {
+            padding: 3rem 0 2rem;
+            border-bottom: 2px solid var(--text-primary);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-crimson);
+            flex-shrink: 0;
+            animation: fadeInScale 1s ease-out;
+        }
+
+        .header-info {
+            flex: 1;
+        }
+
+        header h1 {
+            margin-bottom: 0.3rem;
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+
+        .social-links {
+            font-size: 0.9rem;
+        }
+
+        .social-links a {
+            margin-right: 1.5rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 2.5rem 0;
+        }
+
+        section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease-out;
+            animation-fill-mode: both;
+        }
+
+        section:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        section:nth-child(2) {
+            animation-delay: 0.3s;
+        }
+
+        section:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        /* About Section */
+        .about-text {
+            line-height: 1.6;
+        }
+
+        /* Featured Projects Section */
+        .featured-project {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            transition: transform 0.3s ease, padding-left 0.3s ease;
+        }
+
+        .featured-project:hover {
+            transform: translateX(5px);
+            padding-left: 10px;
+        }
+
+        .featured-project:last-child {
+            border-bottom: none;
+        }
+
+        .featured-project h3 {
+            color: var(--accent-crimson);
+            transition: color 0.3s ease;
+        }
+
+        .featured-project:hover h3 {
+            color: #8a1729;
+        }
+
+        .project-meta {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            line-height: 1.6;
+            margin-top: 0.5rem;
+        }
+
+        /* Project Archive Table */
+        .project-table-wrapper {
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        th {
+            background-color: var(--text-primary);
+            color: var(--bg-primary);
+            padding: 0.7rem;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid var(--text-primary);
+        }
+
+        td {
+            padding: 0.6rem 0.7rem;
+            border: 1px solid var(--border-color);
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tbody tr {
+            transition: all 0.3s ease;
+        }
+
+        tbody tr:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.01);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .tech-stack {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-crimson);
+        }
+
+        /* Footer */
+        footer {
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 2px solid var(--text-primary);
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            animation: fadeIn 1s ease-out 0.6s both;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            header {
+                padding: 2rem 0 1.5rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+
+            main {
+                padding: 2rem 0;
+            }
+
+            section {
+                margin-bottom: 2.5rem;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="profile.png" alt="John Mark Calimbo" class="profile-picture" 
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22120%22 height=%22120%22 viewBox=%220 0 120 120%22%3E%3Ccircle cx=%2260%22 cy=%2260%22 r=%2260%22 fill=%22%23f0f0f0%22/%3E%3Cpath d=%22M60 30c8.3 0 15 6.7 15 15s-6.7 15-15 15-15-6.7-15-15 6.7-15 15-15zm0 35c16.5 0 30 8.5 30 19v6H30v-6c0-10.5 13.5-19 30-19z%22 fill=%22%23A51C30%22/%3E%3C/svg%3E'">
+                <div class="header-info">
+                    <h1>John Mark Calimbo</h1>
+                    <p class="subtitle">Full Stack Developer | Game Developer | Automation Engineer</p>
+                    <div class="social-links">
+                        <a href="https://github.com/yue-os" target="_blank" rel="noopener noreferrer">GitHub: github.com/yue-os</a>
+                        <a href="mailto:calimbo657@gmail.com">Email: calimbo657@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2>About</h2>
+            <p class="about-text">
+                Developer focused on Game Development (Unity/Godot), Minecraft Modding (Java), and Backend Systems (C#/.NET). Passionate about automation and open-source utility tools.
+            </p>
+        </section>
+
+        <!-- Featured Research & Projects Section -->
+        <section id="featured" class="container">
+            <h2>Featured Research & Projects</h2>
+            
+            <div class="featured-project">
+                <h3>BatangAware</h3>
+                <p class="project-meta">Educational RPG | C#, Godot, GDScript</p>
+                <p class="project-description">
+                    An educational role-playing game aimed at raising social awareness among young audiences. Developed using C# and Godot/GDScript, BatangAware combines engaging gameplay mechanics with meaningful educational content. The game features an immersive narrative system, character progression mechanics, and interactive dialogue trees designed to facilitate learning through play. The project demonstrates proficiency in game engine architecture, procedural generation, and educational game design principles.
+                </p>
+            </div>
+
+            <div class="featured-project">
+                <h3>CS Survey System / Booking App</h3>
+                <p class="project-meta">Full-Stack Web Ecosystem | C# ASP.NET, HTML, JavaScript, SQL</p>
+                <p class="project-description">
+                    A comprehensive full-stack web application ecosystem consisting of a digital survey system and an integrated booking platform. The backend is built with C# ASP.NET, providing robust API endpoints, database management via SQL Server, and authentication services. The frontend utilizes HTML, CSS, and vanilla JavaScript to deliver responsive user interfaces for both survey creation/analysis and appointment booking workflows. Features include real-time data validation, dynamic form generation, administrative dashboards, and RESTful API integration.
+                </p>
+            </div>
+
+            <div class="featured-project">
+                <h3>Meteor Client (Fork) & Lucid Addon</h3>
+                <p class="project-meta">Minecraft Utility Mods | Java, Minecraft Forge/Fabric</p>
+                <p class="project-description">
+                    A forked and enhanced version of the Meteor Client, along with the Lucid addon, both developed in Java for Minecraft. These utility mods focus on performance optimization, quality-of-life improvements, and enhanced chat functionalities. The Lucid addon extends the base Meteor Client with additional modules for automation, visual enhancements, and multiplayer communication features. Development involved deep understanding of Minecraft's internal APIs, event-driven programming, and efficient memory management for real-time game modifications.
+                </p>
+            </div>
+        </section>
+
+        <!-- Complete Project Archive Section -->
+        <section id="archive" class="container">
+            <h2>Complete Project Archive</h2>
+            <div class="project-table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Tech Stack</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ViperShopBot</td>
+                            <td class="tech-stack">JavaScript</td>
+                            <td>Discord automation bot for e-commerce key delivery and shop management</td>
+                        </tr>
+                        <tr>
+                            <td>Discord Key Bot</td>
+                            <td class="tech-stack">JavaScript, Node.js</td>
+                            <td>Automated key distribution system with license validation for Discord servers</td>
+                        </tr>
+                        <tr>
+                            <td>Reddit Scraper</td>
+                            <td class="tech-stack">Python</td>
+                            <td>Data extraction tool for mining Reddit content with customizable filters</td>
+                        </tr>
+                        <tr>
+                            <td>Budget Tracker</td>
+                            <td class="tech-stack">Python, SQLite</td>
+                            <td>Personal finance management tool with expense categorization and reporting</td>
+                        </tr>
+                        <!-- <tr>
+                            <td>ObsidianUi</td>
+                            <td class="tech-stack">Lua, Roblox Studio</td>
+                            <td>User interface library for Roblox game development with modular components</td>
+                        </tr> -->
+                        <!-- <tr>
+                            <td>Utility</td>
+                            <td class="tech-stack">Lua</td>
+                            <td>Collection of helper scripts and utility functions for Roblox development</td>
+                        </tr> -->
+                        <!-- <tr>
+                            <td>Script</td>
+                            <td class="tech-stack">Lua</td>
+                            <td>Game enhancement and automation scripts for Roblox platform</td>
+                        </tr> -->
+                        <tr>
+                            <td>Clan Nametag</td>
+                            <td class="tech-stack">Java, Minecraft API</td>
+                            <td>Minecraft mod for customizable clan tag display and team identification</td>
+                        </tr>
+                        <tr>
+                            <td>Crystal Aura</td>
+                            <td class="tech-stack">Java, Minecraft Forge</td>
+                            <td>Combat enhancement mod implementing automated crystal placement mechanics</td>
+                        </tr>
+                        <tr>
+                            <td>BookingAptFrontend</td>
+                            <td class="tech-stack">HTML, CSS, JavaScript</td>
+                            <td>Responsive frontend interface for appointment scheduling system</td>
+                        </tr>
+                        <tr>
+                            <td>KeySystem</td>
+                            <td class="tech-stack">HTML, JavaScript</td>
+                            <td>Web-based license key validation and distribution platform</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 John Mark Calimbo. Hosted on GitHub Pages.</p>
+        </div>
+    </footer>
+</body>
+</html>
