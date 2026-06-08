@@ -1,5 +1,6 @@
 import os
 import re
+import json
 
 def get_metadata(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -26,7 +27,8 @@ def get_metadata(filepath):
         "platform": platform_val,
         "category": category_val,
         "difficulty": difficulty_val,
-        "path": f"./{os.path.basename(filepath)}"
+        "path": f"./{os.path.basename(filepath)}",
+        "filename": os.path.basename(filepath)
     }
 
 def main():
@@ -34,8 +36,10 @@ def main():
     files.sort()
     
     rows = []
+    metadata_list = []
     for f in files:
         data = get_metadata(f)
+        metadata_list.append(data)
         rows.append(f"| [{data['name']}]({data['path']}) | {data['platform']} | {data['category']} | {data['difficulty']} |")
     
     table_content = "\n".join([
@@ -53,6 +57,9 @@ def main():
     
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(new_readme)
+        
+    with open('metadata.json', 'w', encoding='utf-8') as f:
+        json.dump(metadata_list, f, indent=2)
 
 if __name__ == "__main__":
     main()

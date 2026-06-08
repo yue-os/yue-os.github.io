@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Anonforce",
+    "platform": "TryHackMe",
+    "category": "Boot2Root / Linux",
+    "difficulty": "Easy",
+    "path": "./Anonforce.md",
+    "filename": "Anonforce.md"
+  },
+  {
+    "name": "Biohazard",
+    "platform": "TryHackMe",
+    "category": "Web / Recon",
+    "difficulty": "Medium",
+    "path": "./Biohazard.md",
+    "filename": "Biohazard.md"
+  },
+  {
+    "name": "Develpy",
+    "platform": "TryHackMe",
+    "category": "Scripting / PrivEsc",
+    "difficulty": "Medium",
+    "path": "./Develpy.md",
+    "filename": "Develpy.md"
+  },
+  {
+    "name": "Rabbit Store",
+    "platform": "TryHackMe",
+    "category": "Web / SSRF / SSTI / PrivEsc",
+    "difficulty": "Medium",
+    "path": "./RabbitStore.md",
+    "filename": "RabbitStore.md"
+  },
+  {
+    "name": "Smol",
+    "platform": "TryHackMe",
+    "category": "Boot2Root / Web / WordPress / PrivEsc",
+    "difficulty": "Medium",
+    "path": "./Smol.md",
+    "filename": "Smol.md"
+  },
+  {
+    "name": "Thompson",
+    "platform": "TryHackMe",
+    "category": "Boot2Root / Web / Privilege Escalation",
+    "difficulty": "Easy",
+    "path": "./Thompson.md",
+    "filename": "Thompson.md"
+  },
+  {
+    "name": "Wonderland",
+    "platform": "TryHackMe",
+    "category": "Boot2Root / Web / PrivEsc",
+    "difficulty": "Medium",
+    "path": "./Wonderland.md",
+    "filename": "Wonderland.md"
+  },
+  {
+    "name": "Year of the Rabbit",
+    "platform": "TryHackMe",
+    "category": "Boot2Root / Steganography / Privilege Escalation",
+    "difficulty": "Easy",
+    "path": "./YearOfTheRabbit.md",
+    "filename": "YearOfTheRabbit.md"
+  }
+]
