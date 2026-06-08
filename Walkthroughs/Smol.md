@@ -2,6 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Smol  
+**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1718816164594
 **Category:** Boot2Root / Web / WordPress / PrivEsc  
 **Difficulty:** Medium  
 **Points/Reward:** N/A  

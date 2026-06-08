@@ -2,6 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Year of the Rabbit  
+**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/c062ef0e0b4f70e51a2dafc5fc2bca0e.jpeg
 **Category:** Boot2Root / Steganography / Privilege Escalation  
 **Difficulty:** Easy  
 **Points/Reward:** N/A (Standard TryHackMe Room)  

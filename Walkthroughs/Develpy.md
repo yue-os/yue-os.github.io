@@ -2,6 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Develpy
+**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/47bd9da3ef003a03478334c93013fd3a.png
 **Platform:** TryHackMe
 **Category:** Scripting / PrivEsc
 **Difficulty:** Medium

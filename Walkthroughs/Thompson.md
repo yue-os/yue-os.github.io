@@ -2,6 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Thompson  
+**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/f5e35bf1d933a9b45077e5388635a593.png
 **Category:** Boot2Root / Web / Privilege Escalation  
 **Difficulty:** Easy  
 **Points/Reward:** N/A  
