@@ -27,5 +27,12 @@ My approach follows the standard penetration testing lifecycle:
 3. **Privilege Escalation:** Escalating from low-privileged users to Root/Admin.
 4. **Analysis:** Documenting the "Why" behind each step to ensure knowledge retention.
 
+### 📝 Metadata format
+Each walkthrough includes a metadata block at the top:
+- **Name:** Challenge name
+- **Thumbnail:** URL to a card image (Optional)
+- **Category:** CTF category
+- **Difficulty:** Easy/Medium/Hard
+
 ---
 *Created and maintained by [yue-os](https://github.com/yue-os)*

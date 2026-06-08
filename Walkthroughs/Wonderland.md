@@ -2,6 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Wonderland  
+**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/fdba6eaf85513262b2a9b12875b0f342.jpeg
 **Category:** Boot2Root / Web / PrivEsc  
 **Difficulty:** Medium  
 **Points/Reward:** N/A  

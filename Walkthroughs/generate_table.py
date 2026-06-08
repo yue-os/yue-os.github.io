@@ -4,12 +4,13 @@ import json
 
 def get_metadata(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        content = f.read(1000) # Read first 1000 chars
+        content = f.read(2000) # Read first 2000 chars
         
     name = re.search(r'\*\*Name:\*\*\s*(.*)', content)
     platform = re.search(r'\*\*Platform:\*\*\s*(.*)', content)
     category = re.search(r'\*\*Category:\*\*\s*(.*)', content)
     difficulty = re.search(r'\*\*Difficulty:\*\*\s*(.*)', content)
+    thumbnail = re.search(r'\*\*Thumbnail:\*\*\s*(.*)', content)
     
     # Fallbacks for different formats
     if not name:
@@ -21,12 +22,14 @@ def get_metadata(filepath):
     platform_val = platform.group(1).strip() if platform else "TryHackMe"
     category_val = category.group(1).strip() if category else "Boot2Root"
     difficulty_val = difficulty.group(1).strip() if difficulty else "TBD"
+    thumbnail_val = thumbnail.group(1).strip() if thumbnail else None
     
     return {
         "name": name_val,
         "platform": platform_val,
         "category": category_val,
         "difficulty": difficulty_val,
+        "thumbnail": thumbnail_val,
         "path": f"./{os.path.basename(filepath)}",
         "filename": os.path.basename(filepath)
     }

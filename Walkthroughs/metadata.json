@@ -4,6 +4,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Linux",
     "difficulty": "Easy",
+    "thumbnail": "https://tryhackme-images.s3.amazonaws.com/room-icons/606083fd33beb1284fc51f411a706af8.png",
     "path": "./Anonforce.md",
     "filename": "Anonforce.md"
   },
@@ -12,6 +13,7 @@
     "platform": "TryHackMe",
     "category": "Web / Recon",
     "difficulty": "Medium",
+    "thumbnail": null,
     "path": "./Biohazard.md",
     "filename": "Biohazard.md"
   },
@@ -20,6 +22,7 @@
     "platform": "TryHackMe",
     "category": "Scripting / PrivEsc",
     "difficulty": "Medium",
+    "thumbnail": null,
     "path": "./Develpy.md",
     "filename": "Develpy.md"
   },
@@ -28,6 +31,7 @@
     "platform": "TryHackMe",
     "category": "Web / SSRF / SSTI / PrivEsc",
     "difficulty": "Medium",
+    "thumbnail": null,
     "path": "./RabbitStore.md",
     "filename": "RabbitStore.md"
   },
@@ -36,6 +40,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / WordPress / PrivEsc",
     "difficulty": "Medium",
+    "thumbnail": null,
     "path": "./Smol.md",
     "filename": "Smol.md"
   },
@@ -44,6 +49,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / Privilege Escalation",
     "difficulty": "Easy",
+    "thumbnail": null,
     "path": "./Thompson.md",
     "filename": "Thompson.md"
   },
@@ -52,6 +58,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / PrivEsc",
     "difficulty": "Medium",
+    "thumbnail": null,
     "path": "./Wonderland.md",
     "filename": "Wonderland.md"
   },
@@ -60,6 +67,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Steganography / Privilege Escalation",
     "difficulty": "Easy",
+    "thumbnail": null,
     "path": "./YearOfTheRabbit.md",
     "filename": "YearOfTheRabbit.md"
   }
