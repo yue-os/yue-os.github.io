@@ -2,7 +2,7 @@
 
 #### 1. Challenge Overview
 **Name:** Anonforce  
-**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/606083fd33beb1284fc51f411a706af8.png
+**Thumbnail:** ./Walkthroughs/thumbnails/Anonforce.jpeg
 **Category:** Boot2Root / Linux  
 **Difficulty:** Easy  
 **Points/Reward:** N/A  

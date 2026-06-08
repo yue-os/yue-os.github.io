@@ -2,7 +2,7 @@
 
 ## 1. Challenge Overview
 **Name:** Rabbit Store  
-**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/618b3fa52f0acc0061fb0172-1727807358043
+**Thumbnail:** ./Walkthroughs/thumbnails/RabbitStore.png
 **Category:** Web / SSRF / SSTI / PrivEsc  
 **Difficulty:** Medium  
 **Points/Reward:** N/A  

@@ -4,7 +4,7 @@
 
 ## 1. Challenge Overview
 **Name:** Biohazard
-**Thumbnail:** https://tryhackme-images.s3.amazonaws.com/room-icons/72aca9d285c3156a05b34b7f6cc67ae6.png
+**Thumbnail:** ./Walkthroughs/thumbnails/Biohazard.png
 **Platform:** TryHackMe
 **Category:** Web / Recon
 **Difficulty:** Medium
