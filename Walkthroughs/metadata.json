@@ -4,7 +4,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Linux",
     "difficulty": "Easy",
-    "thumbnail": "./Walkthroughs/thumbnails/Anonforce.jpeg",
+    "thumbnail": "Walkthroughs/thumbnails/Anonforce.jpeg",
     "path": "./Anonforce.md",
     "filename": "Anonforce.md"
   },
@@ -13,7 +13,7 @@
     "platform": "TryHackMe",
     "category": "Web / Recon",
     "difficulty": "Medium",
-    "thumbnail": "./Walkthroughs/thumbnails/Biohazard.png",
+    "thumbnail": "Walkthroughs/thumbnails/Biohazard.png",
     "path": "./Biohazard.md",
     "filename": "Biohazard.md"
   },
@@ -22,7 +22,7 @@
     "platform": "TryHackMe",
     "category": "Scripting / PrivEsc",
     "difficulty": "Medium",
-    "thumbnail": "./Walkthroughs/thumbnails/Develpy.png",
+    "thumbnail": "Walkthroughs/thumbnails/Develpy.png",
     "path": "./Develpy.md",
     "filename": "Develpy.md"
   },
@@ -31,7 +31,7 @@
     "platform": "TryHackMe",
     "category": "Web / SSRF / SSTI / PrivEsc",
     "difficulty": "Medium",
-    "thumbnail": "./Walkthroughs/thumbnails/RabbitStore.png",
+    "thumbnail": "Walkthroughs/thumbnails/RabbitStore.png",
     "path": "./RabbitStore.md",
     "filename": "RabbitStore.md"
   },
@@ -40,7 +40,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / WordPress / PrivEsc",
     "difficulty": "Medium",
-    "thumbnail": "./Walkthroughs/thumbnails/Smol.png",
+    "thumbnail": "Walkthroughs/thumbnails/Smol.png",
     "path": "./Smol.md",
     "filename": "Smol.md"
   },
@@ -49,7 +49,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / Privilege Escalation",
     "difficulty": "Easy",
-    "thumbnail": "./Walkthroughs/thumbnails/Thompson.png",
+    "thumbnail": "Walkthroughs/thumbnails/Thompson.png",
     "path": "./Thompson.md",
     "filename": "Thompson.md"
   },
@@ -58,7 +58,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Web / PrivEsc",
     "difficulty": "Medium",
-    "thumbnail": "./Walkthroughs/thumbnails/Wonderland.jpeg",
+    "thumbnail": "Walkthroughs/thumbnails/Wonderland.jpeg",
     "path": "./Wonderland.md",
     "filename": "Wonderland.md"
   },
@@ -67,7 +67,7 @@
     "platform": "TryHackMe",
     "category": "Boot2Root / Steganography / Privilege Escalation",
     "difficulty": "Easy",
-    "thumbnail": "./Walkthroughs/thumbnails/YearOfTheRabbit.jpeg",
+    "thumbnail": "Walkthroughs/thumbnails/YearOfTheRabbit.jpeg",
     "path": "./YearOfTheRabbit.md",
     "filename": "YearOfTheRabbit.md"
   }

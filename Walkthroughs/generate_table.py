@@ -24,6 +24,9 @@ def get_metadata(filepath):
     difficulty_val = difficulty.group(1).strip() if difficulty else "TBD"
     thumbnail_val = thumbnail.group(1).strip() if thumbnail else None
     
+    if thumbnail_val and thumbnail_val.startswith('./'):
+        thumbnail_val = thumbnail_val[2:]
+        
     return {
         "name": name_val,
         "platform": platform_val,
