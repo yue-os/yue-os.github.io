@@ -1,0 +1,15 @@
+# Tool State
+.superpowers/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

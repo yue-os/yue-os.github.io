@@ -27,6 +27,15 @@
     "filename": "Develpy.md"
   },
   {
+    "name": "Plant Photographer",
+    "platform": "[TryHackMe](https://tryhackme.com/room/plantphotographer)",
+    "category": "Boot2Root",
+    "difficulty": "Hard",
+    "thumbnail": null,
+    "path": "./PlantPhotographer.md",
+    "filename": "PlantPhotographer.md"
+  },
+  {
     "name": "Rabbit Store",
     "platform": "TryHackMe",
     "category": "Web / SSRF / SSTI / PrivEsc",
