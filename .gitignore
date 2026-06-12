@@ -1,5 +1,6 @@
 # Tool State
 .superpowers/
+docs/
 
 # Python artifacts
 __pycache__/
