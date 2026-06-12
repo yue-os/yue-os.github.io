@@ -2,8 +2,8 @@
 
 #### 1. Challenge Overview
 **Name:** Plant Photographer  
-**Thumbnail:** ./thumbnails/plant.png
-**Platform:** [TryHackMe](https://tryhackme.com/room/plantphotographer)  
+**Thumbnail:** ./Walkthroughs/thumbnails/plant.png
+**Platform:** TryHackMe
 **Category:** Boot2Root  
 **Difficulty:** Hard  
 **Date:** June 12, 2026  
