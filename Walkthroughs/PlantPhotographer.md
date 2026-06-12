@@ -1,18 +1,21 @@
-# Plant Photographer - Writeup
+### [Plant Photographer] - [TryHackMe] Walkthrough
 
-![Thumbnail](./plant.png)
-
-![CTF](https://img.shields.io/badge/Status-Complete-brightgreen) ![Security](https://img.shields.io/badge/Niche-Web--Security-blue) ![Tools](https://img.shields.io/badge/Tools-PyCurl%20|%20SSRF%20|%20LFI-orange)
-
-**Room Name:** Plant Photographer  
+#### 1. Challenge Overview
+**Name:** Plant Photographer  
+**Thumbnail:** ./thumbnails/plant.png
 **Platform:** [TryHackMe](https://tryhackme.com/room/plantphotographer)  
+**Category:** Boot2Root  
 **Difficulty:** Hard  
 **Date:** June 12, 2026  
 **Target IP:** 10.48.147.86  
 
+**Challenge Description:**
+Your friend, a passionate botanist and aspiring photographer, recently launched a personal portfolio website to showcase his growing collection of rare plant photos. Proud of building the site himself from scratch, he’s asked you to take a quick look and let him know if anything could be improved. Look closely at how the site works under the hood, and determine whether it was coded with best practices in mind.
+
 ---
 
-## 1. Initial Footprint: The "Simple" Portfolio
+#### 2. Initial Footprint: The "Simple" Portfolio
+
 
 The journey began with a standard Nmap scan to see what we were dealing with. The target appeared to be a personal portfolio for a botanist named Jay Green.
 
@@ -48,7 +51,7 @@ I tried to "break" the downloader by changing the port to something invalid (`80
 
 **The Leak:**
 The error message was a goldmine. It revealed:
-1. **The API Key:** `Flag 1` (used to authenticate with the "secure" storage).
+1. **The API Key:** `THM{Hello_Im_just_an_API_key}` (used to authenticate with the "secure" storage).
 2. **Internal Paths:** 
    - Webroot: `/usr/src/app/app.py`
    - Python packages: `/usr/local/lib/python3.10/site-packages/flask/app.py`
@@ -70,7 +73,7 @@ Initially, the backend seemed to append a directory and extension to my input. T
 This confirmed the logic for the `/admin` route and pointed to a `private-docs` folder.
 
 **Flag 2 (The Secret Document):**
-Accessing `http://10.48.147.86/download?server=file:///usr/src/app/private-docs/flag.pdf%23&id=1` yielded the second flag.
+Accessing `http://10.48.147.86/download?server=file:///usr/src/app/private-docs/flag.pdf%23&id=1` yielded the second flag: `THM{c4n_i_haz_flagz_plz?}`.
 
 ---
 
@@ -160,10 +163,10 @@ Entering the generated PIN into the `/console` unlocked the interactive Python s
 >>> __import__('os').popen('ls').read();
 'Dockerfile\napp.py\nflag-982374827648721338.txt\nprivate-docs\npublic-docs\n'
 >>> __import__('os').popen('cat flag-982374827648721338.txt').read();
-'THM{REDACTED}\n'
+'THM{SSRF2RCE_2_1337_4_M3}\n'
 ```
 
-**Final Flag:** `THM{REDACTED}`
+**Final Flag:** `THM{SSRF2RCE_2_1337_4_M3}`
 
 ---
 

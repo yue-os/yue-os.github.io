@@ -31,7 +31,7 @@
     "platform": "[TryHackMe](https://tryhackme.com/room/plantphotographer)",
     "category": "Boot2Root",
     "difficulty": "Hard",
-    "thumbnail": null,
+    "thumbnail": "thumbnails/plant.png",
     "path": "./PlantPhotographer.md",
     "filename": "PlantPhotographer.md"
   },
