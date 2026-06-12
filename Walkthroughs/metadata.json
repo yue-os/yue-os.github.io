@@ -28,10 +28,10 @@
   },
   {
     "name": "Plant Photographer",
-    "platform": "[TryHackMe](https://tryhackme.com/room/plantphotographer)",
+    "platform": "TryHackMe",
     "category": "Boot2Root",
     "difficulty": "Hard",
-    "thumbnail": "thumbnails/plant.png",
+    "thumbnail": "Walkthroughs/thumbnails/plant.png",
     "path": "./PlantPhotographer.md",
     "filename": "PlantPhotographer.md"
   },
